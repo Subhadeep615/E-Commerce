@@ -9,8 +9,8 @@ const Login = () => {
 
     const [state, setState] = useState("login");
     const [name, setName] = useState("");
-    const [email, setEmail] = useState("@gmail.com");
-    const [password, setPassword] = useState("@123");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     const onSubmitHandler = async (event) => {
         try {
